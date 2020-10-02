@@ -35,6 +35,21 @@ rect(screen, (183, 200, 196), (50, 100, 130, 490))
 
 ellipse( screen, cloud, (90, 200, 500, 130))
 
+ellipse (screen, (183, 200, 196), (-20, 600, 600, 180))
+
+rect(screen, (100, 200, 200), (200, 600, 200, 50))
+rect(screen, (100, 200, 200), (240, 570, 110, 30))
+rect(screen, (200, 200, 255), (250, 575, 40, 25))
+rect(screen, (200, 200, 255), (300, 575, 40, 25))
+
+ellipse(screen, (0, 0, 0), (350, 630,40, 40))
+
+ellipse(screen, (0, 0, 0), (220, 630, 40, 40))
+rect(screen, (0, 0, 0), (185, 635, 15, 7))
+
+ellipse(screen, (130, 150, 150), (40, 610, 130, 40))
+ellipse(screen, (130, 150, 150), (10, 560, 130, 40))
+
 pygame.display.update()
 clock = pygame.time.Clock()
 finished = False
